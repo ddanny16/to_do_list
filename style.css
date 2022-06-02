@@ -58,7 +58,7 @@ p {
 }
 
 #third {
-  color: #025F70;
+  color: rgb(142, 142, 182);
   margin-bottom: 30px;
 }
 
@@ -82,8 +82,8 @@ p {
   width: 4%;
   margin-left: 5px;
   border-radius: 5px;
-  color: #04A1BF;
-  background-color: #025F70;
+  color: #FFCD5D;
+  background: linear-gradient(to right, #777, #101030);
   transition: all 0.75s ease;
   -webkit-transition: all 0.75s ease;
   -moz-transition: all 0.75s ease;
@@ -91,19 +91,15 @@ p {
   -o-transition: all 0.75 ease;
   font-weight: normal;
 }
-.input_VAL button #img:hover,
-.input_VAL button #img:active {
+.input_VAL button:hover, .input_VAL button:active {
   background-color: #02798F;
   color: #FFCD5D;
   border: 2px solid black;
 }
-.input_VAL button #img:hover svg,
-.input_VAL button #img:active svg {
+.input_VAL button:hover svg, .input_VAL button:active svg {
   fill: #FFCD5D;
 }
-.input_VAL button #img:hover svg:hover, .input_VAL button #img:hover svg:active,
-.input_VAL button #img:active svg:hover,
-.input_VAL button #img:active svg:active {
+.input_VAL button:hover svg:hover, .input_VAL button:hover svg:active, .input_VAL button:active svg:hover, .input_VAL button:active svg:active {
   fill: #FFCD5D;
 }
 .input_VAL button svg {
@@ -126,10 +122,10 @@ ul {
 li {
   list-style: none;
   padding: 10px 20px;
-  color: #ffffff;
+  color: white;
   text-transform: capitalize;
   font-weight: 600;
-  border: 2px solid #292929;
+  border: 2px solid;
   border-radius: 5px;
   margin-bottom: 10px;
   background: #4EB9CD;
@@ -159,8 +155,4 @@ li button {
 
 .delete {
   display: none;
-}
-
-#img {
-  width: 20px;
 }/*# sourceMappingURL=style.css.map */
