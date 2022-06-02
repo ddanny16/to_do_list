@@ -8,17 +8,17 @@
 }
 
 ::-moz-selection {
-  color: #fff;
+  color: #101010;
 }
 
 ::selection {
-  color: #fff;
+  color: #101010;
 }
 
 body {
   overflow-x: hidden;
   box-sizing: border-box;
-  background: #04A1BF;
+  background: linear-gradient(to right, #777, #101030);
   text-align: center;
   font-family: "Open Sans", sans-serif;
   height: 100vh;
@@ -91,15 +91,19 @@ p {
   -o-transition: all 0.75 ease;
   font-weight: normal;
 }
-.input_VAL button:hover, .input_VAL button:active {
+.input_VAL button #img:hover,
+.input_VAL button #img:active {
   background-color: #02798F;
   color: #FFCD5D;
   border: 2px solid black;
 }
-.input_VAL button:hover svg, .input_VAL button:active svg {
+.input_VAL button #img:hover svg,
+.input_VAL button #img:active svg {
   fill: #FFCD5D;
 }
-.input_VAL button:hover svg:hover, .input_VAL button:hover svg:active, .input_VAL button:active svg:hover, .input_VAL button:active svg:active {
+.input_VAL button #img:hover svg:hover, .input_VAL button #img:hover svg:active,
+.input_VAL button #img:active svg:hover,
+.input_VAL button #img:active svg:active {
   fill: #FFCD5D;
 }
 .input_VAL button svg {
@@ -125,7 +129,7 @@ li {
   color: #ffffff;
   text-transform: capitalize;
   font-weight: 600;
-  border: 2px solid #025f70;
+  border: 2px solid #292929;
   border-radius: 5px;
   margin-bottom: 10px;
   background: #4EB9CD;
@@ -155,4 +159,8 @@ li button {
 
 .delete {
   display: none;
+}
+
+#img {
+  width: 20px;
 }/*# sourceMappingURL=style.css.map */
